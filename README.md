@@ -345,6 +345,13 @@ It runs through the looped iteration for each X while Y=1, printing each time. T
 
 Write code that prints out all the points in the area bounded by (0,0), (10,0), (0,10) and (10,10) **where** x and y are both integers.
 
+for i in 0...10 {
+for j in 0...10 {
+print("\(i),\(j)", separator: "", terminator: " ")
+}
+print("")
+}
+
 
 
 ***
