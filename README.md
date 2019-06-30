@@ -359,6 +359,13 @@ print("")
 
 Write code that prints out all the points in the area bounded by (0,0), (10,0), (0,10) and (10,10) **where** the difference of x and y is at least 5, and x and y are both integers.
 
+for i in 0...10 {
+for j in 0...10 where i - j >= 5 {
+print("\(i),\(j)", separator: "", terminator: " ")
+}
+print("")
+}
+
 ***
 ## Question 22
 
